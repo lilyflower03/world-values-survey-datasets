@@ -1,4 +1,4 @@
-# World-Values-Survey-Datasets
+# WorldValuesSurveyDatasets
 Overview
 
 This repository provides a derived dataset based on the World Values Survey (WVS) Wave 7 (2017–2022). The dataset contains question texts, multiple-choice options, aggregated response distributions, and category labels. The dataset is formatted as JSON and intended for research and analysis applications such as cultural modeling, cross-cultural comparison, and culturally adaptive AI.
