@@ -9,13 +9,6 @@ The dataset contains:
 - Aggregated response distributions
 - WVS category labels
 
-The dataset is formatted as **JSON** and intended for research and analysis applications such as:
-
-- Cultural modeling
-- Cross-cultural comparison
-- Culturally adaptive AI
-- Computational social science
-
 ---
 
 ## **Data Generation Process**
@@ -47,8 +40,6 @@ Each record contains:
 - Category label
 - Country information
 
-> ⚠️ The dataset contains **aggregated distributions only**.  
-> No individual-level microdata are included.
 
 ---
 
@@ -75,4 +66,11 @@ Below is an example of a JSON record contained in this dataset:
     "4": 0.0
   }
 }
+
+## **Source**
+Original survey data:  
+**World Values Survey (WVS) Wave 7 (2017–2022)**  
+<https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp>
+
+Users must follow the official WVS usage and citation policy when using this dataset.
 
