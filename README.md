@@ -15,10 +15,8 @@ The dataset contains:
 The dataset was generated through the following steps:
 
 1. **Excluding demographic items** (e.g., age, gender) and selecting a subset of survey questions
-2. **Machine-translating English questions** into **Chinese**, **Japanese**, and **Arabic**  
-   _No manual post-editing was performed_
-3. **Extracting aggregated response distributions**  
-   Likert-type option percentages obtained from WVS results
+2. **Machine-translating English questions** into **Chinese**, **Japanese**, and **Arabic** *No manual post-editing was performed*
+3. **Extracting aggregated response distributions** Likert-type option percentages obtained from WVS results
 4. **Assigning official WVS category labels**, such as:
    - Social Values
    - Well-being / Subjective Well-being
@@ -50,7 +48,12 @@ Below is an example of a JSON record contained in this dataset:
   "id": "Q1",
   "question_id": "1",
   "topic": "SOCIAL VALUES",
-  "question_text": "How important is family in your life?",
+  "question_text": {
+    "en": "How important is family in your life?",
+    "ja": "あなたの生活において、家族はどの程度重要ですか？",
+    "zh": "家庭在您的生活中的重要程度如何？",
+    "ar": "ما مدى أهمية الأسرة في حياتك؟"
+  },
   "options": [
     "1. Very important",
     "2. Rather important",
@@ -62,6 +65,6 @@ Below is an example of a JSON record contained in this dataset:
     "1": 0.91,
     "2": 0.07,
     "3": 0.01,
-    "4": 0.0
+    "4": 0.01
   }
 }
