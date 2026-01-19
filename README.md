@@ -40,6 +40,11 @@ Each record contains:
 
 ---
 
+## **Source**
+**Original survey data:** [World Values Survey (WVS) Wave 7 (2017–2022)](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp)
+
+> [!IMPORTANT]
+> Users must follow the official **WVS usage and citation policy** when using this dataset.
 ## **Example Record**
 Below is an example of a JSON record contained in this dataset:
 
@@ -68,3 +73,10 @@ Below is an example of a JSON record contained in this dataset:
     "4": 0.01
   }
 }
+```
+
+## **Source**
+**Original survey data:** [World Values Survey (WVS) Wave 7 (2017–2022)](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp)
+
+> [!IMPORTANT]
+> Users must follow the official **WVS usage and citation policy** when using this dataset.
